@@ -23,6 +23,16 @@ word not in list
 ['apple', 'cherry', 'kiwi', 'apple', 'banana', 'strawberry', 'kiwi', 'blueberry', 'kiwi', 'orange']
 
 """
-
+y = 0
 fruit = ["apple","cherry","kiwi","apple","banana","strawberry","kiwi","blueberry","kiwi"]
+while y == 0:
+    print(fruit)
+    user = input('Enter a word from the list: ')
+    x = (fruit.count(user))
+    if user in fruit:
+        for i in range(x):
+            fruit.remove(user)
+    else:
+        fruit.append(user)
 
+#done

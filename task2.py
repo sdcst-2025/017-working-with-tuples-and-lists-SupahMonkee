@@ -23,3 +23,15 @@ Enter a word: virus
 
 ['apple', 'worm', 'dollar', 'shingle', 'virus']
 """
+
+list1 = []
+
+list1.append(0, input('Enter a word: '))
+list1.append(1, input('Enter a word: '))
+list1.append(2, input('Enter a word: '))
+list1.append(3, input('Enter a word: '))
+list1.append(4, input('Enter a word: '))
+
+print(list1)
+
+#done
